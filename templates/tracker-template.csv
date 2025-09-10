@@ -1,0 +1,6 @@
+ID,Job Position,Company,Max. Salary,Location,Status,Date Saved,Deadline,Date Applied,Follow up,Excitement
+1,Senior Software Engineer,Google,150000,San Francisco CA,Applied,2024-01-15,2024-02-01,2024-01-20,Follow up in 1 week,9
+2,Machine Learning Engineer,OpenAI,140000,Remote,Interview,2024-01-10,2024-01-25,2024-01-12,Prepare for technical interview,8
+3,Data Scientist,Microsoft,130000,Seattle WA,Saved,2024-01-18,2024-02-15,,Apply by Feb 10,7
+4,Full Stack Developer,StartupXYZ,120000,New York NY,Rejected,2024-01-05,2024-01-20,2024-01-08,Request feedback,6
+5,AI Research Scientist,DeepMind,160000,London UK,Applied,2024-01-20,2024-02-05,2024-01-22,Check status in 2 weeks,9
