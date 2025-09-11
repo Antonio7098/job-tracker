@@ -1,0 +1,564 @@
+{
+  "meta": {
+    "version": "1.0",
+    "created": "2024-01-01",
+    "description": "Comprehensive meta CV template for generating targeted CVs",
+    "schema_version": "1.0"
+  },
+  "personal_information": {
+    "basic": {
+      "full_name": {
+        "value": "[Your Full Name]",
+        "type": "text",
+        "required": true,
+        "metadata": {
+          "display_priority": 1,
+          "searchable": true
+        }
+      },
+      "preferred_name": {
+        "value": "[Preferred Name]",
+        "type": "text",
+        "required": false,
+        "metadata": {
+          "display_priority": 2,
+          "searchable": true
+        }
+      },
+      "title": {
+        "value": "[Professional Title]",
+        "type": "text",
+        "required": false,
+        "metadata": {
+          "display_priority": 3,
+          "searchable": true
+        }
+      }
+    },
+    "contact": {
+      "email": {
+        "value": "[your.email@example.com]",
+        "type": "email",
+        "required": true,
+        "metadata": {
+          "display_priority": 1,
+          "searchable": true,
+          "privacy_level": "public"
+        }
+      },
+      "phone": {
+        "value": "[+1-234-567-8900]",
+        "type": "phone",
+        "required": true,
+        "metadata": {
+          "display_priority": 2,
+          "searchable": true,
+          "privacy_level": "public"
+        }
+      },
+      "address": {
+        "street": "[Street Address]",
+        "city": "[City]",
+        "state": "[State/Province]",
+        "postal_code": "[Postal Code]",
+        "country": "[Country]",
+        "type": "address",
+        "required": false,
+        "metadata": {
+          "display_priority": 3,
+          "searchable": true,
+          "privacy_level": "private"
+        }
+      }
+    },
+    "online_presence": {
+      "linkedin": {
+        "value": "[https://linkedin.com/in/yourprofile]",
+        "type": "url",
+        "required": false,
+        "metadata": {
+          "display_priority": 1,
+          "searchable": true,
+          "platform": "linkedin"
+        }
+      },
+      "github": {
+        "value": "[https://github.com/yourusername]",
+        "type": "url",
+        "required": false,
+        "metadata": {
+          "display_priority": 2,
+          "searchable": true,
+          "platform": "github"
+        }
+      },
+      "portfolio": {
+        "value": "[https://yourportfolio.com]",
+        "type": "url",
+        "required": false,
+        "metadata": {
+          "display_priority": 3,
+          "searchable": true,
+          "platform": "portfolio"
+        }
+      },
+      "website": {
+        "value": "[https://yourwebsite.com]",
+        "type": "url",
+        "required": false,
+        "metadata": {
+          "display_priority": 4,
+          "searchable": true,
+          "platform": "personal"
+        }
+      },
+      "twitter": {
+        "value": "[https://twitter.com/yourhandle]",
+        "type": "url",
+        "required": false,
+        "metadata": {
+          "display_priority": 5,
+          "searchable": true,
+          "platform": "twitter"
+        }
+      }
+    }
+  },
+  "profile": {
+    "summary": {
+      "value": "[2-3 sentence professional summary highlighting your key qualifications, experience, and career objectives. Focus on your most relevant skills and what value you bring to potential employers.]",
+      "type": "text",
+      "required": true,
+      "metadata": {
+        "display_priority": 1,
+        "searchable": true,
+        "max_length": 500,
+        "target_audience": "general"
+      }
+    },
+    "objectives": [
+      {
+        "value": "[Short-term career objective]",
+        "type": "text",
+        "required": false,
+        "metadata": {
+          "display_priority": 1,
+          "searchable": true,
+          "timeframe": "short_term",
+          "target_audience": "general"
+        }
+      },
+      {
+        "value": "[Long-term career objective]",
+        "type": "text",
+        "required": false,
+        "metadata": {
+          "display_priority": 2,
+          "searchable": true,
+          "timeframe": "long_term",
+          "target_audience": "general"
+        }
+      }
+    ]
+  },
+  "education": [
+    {
+      "id": "edu_001",
+      "degree_type": "[Bachelor's/Master's/PhD/Certificate]",
+      "field_of_study": "[Computer Science/Data Science/etc.]",
+      "institution": "[University Name]",
+      "location": "[City, State/Country]",
+      "start_date": "[YYYY-MM]",
+      "end_date": "[YYYY-MM]",
+      "gpa": "[3.8/4.0]",
+      "status": "completed",
+      "type": "education",
+      "required": true,
+      "metadata": {
+        "display_priority": 1,
+        "searchable": true,
+        "relevance_score": 0.9,
+        "achievements": [
+          "[Dean's List]",
+          "[Magna Cum Laude]",
+          "[Relevant coursework]"
+        ],
+        "keywords": ["computer science", "data structures", "algorithms"],
+        "target_audience": "technical"
+      }
+    }
+  ],
+  "professional_development": [
+    {
+      "id": "prof_dev_001",
+      "name": "[Course/Bootcamp Name]",
+      "provider": "[Institution/Provider]",
+      "type": "course",
+      "start_date": "[YYYY-MM]",
+      "end_date": "[YYYY-MM]",
+      "duration": "[3 months]",
+      "status": "completed",
+      "credential_id": "[Certificate ID]",
+      "credential_url": "[https://credential.url]",
+      "description": "[Brief description of the course content]",
+      "required": false,
+      "metadata": {
+        "display_priority": 1,
+        "searchable": true,
+        "relevance_score": 0.8,
+        "skills_gained": ["Python", "Machine Learning", "Data Analysis"],
+        "keywords": ["data science", "python", "machine learning"],
+        "target_audience": "technical",
+        "industry": "technology"
+      }
+    },
+    {
+      "id": "prof_dev_002",
+      "name": "[Certification Name]",
+      "provider": "[Certifying Body]",
+      "type": "certification",
+      "issue_date": "[YYYY-MM]",
+      "expiry_date": "[YYYY-MM]",
+      "credential_id": "[Certification ID]",
+      "credential_url": "[https://verify.url]",
+      "description": "[Brief description of certification]",
+      "required": false,
+      "metadata": {
+        "display_priority": 1,
+        "searchable": true,
+        "relevance_score": 0.9,
+        "skills_gained": ["AWS", "Cloud Architecture"],
+        "keywords": ["aws", "cloud", "certification"],
+        "target_audience": "technical",
+        "industry": "cloud computing"
+      }
+    }
+  ],
+  "work_experience": [
+    {
+      "id": "work_001",
+      "job_title": "[Job Title]",
+      "company": "[Company Name]",
+      "company_website": "[https://company.com]",
+      "location": "[City, State/Country]",
+      "employment_type": "full_time",
+      "start_date": "[YYYY-MM]",
+      "end_date": "[YYYY-MM]",
+      "current": true,
+      "description": "[Brief job description]",
+      "responsibilities": [
+        "[Key responsibility or achievement]",
+        "[Another key responsibility or achievement]",
+        "[Additional relevant point]"
+      ],
+      "achievements": [
+        {
+          "description": "[Specific achievement with metrics]",
+          "impact": "[Quantified impact]",
+          "skills_used": ["Python", "SQL", "Machine Learning"]
+        }
+      ],
+      "technologies_used": ["Python", "SQL", "AWS", "Docker"],
+      "team_size": 5,
+      "reporting_to": "[Manager Title]",
+      "required": true,
+      "metadata": {
+        "display_priority": 1,
+        "searchable": true,
+        "relevance_score": 0.95,
+        "keywords": ["data science", "python", "machine learning", "analytics"],
+        "target_audience": "technical",
+        "industry": "technology",
+        "company_size": "startup",
+        "department": "engineering"
+      }
+    }
+  ],
+  "projects": [
+    {
+      "id": "proj_001",
+      "name": "[Project Name]",
+      "type": "personal",
+      "description": "[Brief description of what the project accomplished]",
+      "technologies": ["Python", "TensorFlow", "Docker"],
+      "start_date": "[YYYY-MM]",
+      "end_date": "[YYYY-MM]",
+      "status": "completed",
+      "url": "[https://github.com/username/project]",
+      "demo_url": "[https://demo-url.com]",
+      "team_size": 1,
+      "role": "Sole Developer",
+      "key_features": [
+        "[Feature 1]",
+        "[Feature 2]",
+        "[Feature 3]"
+      ],
+      "results": [
+        "[Key result or achievement]",
+        "[Another key result]"
+      ],
+      "required": false,
+      "metadata": {
+        "display_priority": 1,
+        "searchable": true,
+        "relevance_score": 0.8,
+        "keywords": ["machine learning", "python", "tensorflow", "data analysis"],
+        "target_audience": "technical",
+        "industry": "technology",
+        "complexity": "intermediate",
+        "visibility": "public"
+      }
+    }
+  ],
+  "technical_skills": {
+    "programming_languages": [
+      {
+        "name": "Python",
+        "proficiency": "expert",
+        "years_experience": 5,
+        "last_used": "2024-01",
+        "type": "programming_language",
+        "metadata": {
+          "display_priority": 1,
+          "searchable": true,
+          "relevance_score": 0.95,
+          "keywords": ["python", "programming", "scripting"],
+          "target_audience": "technical",
+          "industry": "technology"
+        }
+      }
+    ],
+    "frameworks_libraries": [
+      {
+        "name": "TensorFlow",
+        "proficiency": "advanced",
+        "years_experience": 3,
+        "last_used": "2024-01",
+        "category": "machine_learning",
+        "type": "framework",
+        "metadata": {
+          "display_priority": 1,
+          "searchable": true,
+          "relevance_score": 0.9,
+          "keywords": ["tensorflow", "machine learning", "deep learning"],
+          "target_audience": "technical",
+          "industry": "ai_ml"
+        }
+      }
+    ],
+    "databases": [
+      {
+        "name": "PostgreSQL",
+        "proficiency": "intermediate",
+        "years_experience": 2,
+        "last_used": "2024-01",
+        "type": "database",
+        "metadata": {
+          "display_priority": 1,
+          "searchable": true,
+          "relevance_score": 0.8,
+          "keywords": ["postgresql", "sql", "database"],
+          "target_audience": "technical",
+          "industry": "technology"
+        }
+      }
+    ],
+    "cloud_platforms": [
+      {
+        "name": "AWS",
+        "proficiency": "intermediate",
+        "years_experience": 2,
+        "last_used": "2024-01",
+        "certifications": ["AWS Certified Cloud Practitioner"],
+        "type": "cloud_platform",
+        "metadata": {
+          "display_priority": 1,
+          "searchable": true,
+          "relevance_score": 0.85,
+          "keywords": ["aws", "cloud", "infrastructure"],
+          "target_audience": "technical",
+          "industry": "cloud_computing"
+        }
+      }
+    ],
+    "tools_technologies": [
+      {
+        "name": "Docker",
+        "proficiency": "intermediate",
+        "years_experience": 1,
+        "last_used": "2024-01",
+        "category": "devops",
+        "type": "tool",
+        "metadata": {
+          "display_priority": 2,
+          "searchable": true,
+          "relevance_score": 0.7,
+          "keywords": ["docker", "containerization", "devops"],
+          "target_audience": "technical",
+          "industry": "technology"
+        }
+      }
+    ]
+  },
+  "soft_skills": [
+    {
+      "name": "Leadership",
+      "proficiency": "advanced",
+      "description": "[Brief description of leadership experience]",
+      "type": "soft_skill",
+      "metadata": {
+        "display_priority": 1,
+        "searchable": true,
+        "relevance_score": 0.8,
+        "keywords": ["leadership", "management", "team building"],
+        "target_audience": "general",
+        "industry": "general"
+      }
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "proficiency": "native",
+      "certification": null,
+      "type": "language",
+      "metadata": {
+        "display_priority": 1,
+        "searchable": true,
+        "relevance_score": 0.9,
+        "keywords": ["english", "communication"],
+        "target_audience": "general",
+        "industry": "general"
+      }
+    },
+    {
+      "name": "Spanish",
+      "proficiency": "conversational",
+      "certification": "DELE B2",
+      "type": "language",
+      "metadata": {
+        "display_priority": 2,
+        "searchable": true,
+        "relevance_score": 0.6,
+        "keywords": ["spanish", "bilingual", "communication"],
+        "target_audience": "general",
+        "industry": "general"
+      }
+    }
+  ],
+  "achievements_awards": [
+    {
+      "title": "[Award/Achievement Title]",
+      "organization": "[Awarding Organization]",
+      "date": "[YYYY-MM]",
+      "description": "[Description of achievement]",
+      "category": "professional",
+      "type": "achievement",
+      "metadata": {
+        "display_priority": 1,
+        "searchable": true,
+        "relevance_score": 0.9,
+        "keywords": ["award", "recognition", "excellence"],
+        "target_audience": "general",
+        "industry": "technology"
+      }
+    }
+  ],
+  "publications": [
+    {
+      "title": "[Publication Title]",
+      "authors": ["[Author 1]", "[Author 2]"],
+      "publication": "[Journal/Conference Name]",
+      "date": "[YYYY-MM]",
+      "url": "[https://publication.url]",
+      "type": "journal_article",
+      "metadata": {
+        "display_priority": 1,
+        "searchable": true,
+        "relevance_score": 0.9,
+        "keywords": ["research", "publication", "academic"],
+        "target_audience": "academic",
+        "industry": "research"
+      }
+    }
+  ],
+  "volunteer_experience": [
+    {
+      "organization": "[Organization Name]",
+      "role": "[Volunteer Role]",
+      "start_date": "[YYYY-MM]",
+      "end_date": "[YYYY-MM]",
+      "description": "[Description of volunteer work]",
+      "skills_used": ["Leadership", "Communication"],
+      "type": "volunteer",
+      "metadata": {
+        "display_priority": 2,
+        "searchable": true,
+        "relevance_score": 0.6,
+        "keywords": ["volunteer", "community", "leadership"],
+        "target_audience": "general",
+        "industry": "nonprofit"
+      }
+    }
+  ],
+  "interests_activities": [
+    {
+      "name": "[Interest/Activity]",
+      "description": "[Brief description]",
+      "category": "technical",
+      "type": "interest",
+      "metadata": {
+        "display_priority": 1,
+        "searchable": true,
+        "relevance_score": 0.5,
+        "keywords": ["hobby", "interest", "personal"],
+        "target_audience": "general",
+        "industry": "general"
+      }
+    }
+  ],
+  "references": [
+    {
+      "name": "[Reference Name]",
+      "title": "[Job Title]",
+      "company": "[Company]",
+      "email": "[email@company.com]",
+      "phone": "[+1-234-567-8900]",
+      "relationship": "former_manager",
+      "type": "reference",
+      "metadata": {
+        "display_priority": 1,
+        "searchable": false,
+        "privacy_level": "private",
+        "target_audience": "recruiter"
+      }
+    }
+  ],
+  "custom_sections": [
+    {
+      "title": "[Custom Section Title]",
+      "content": "[Custom content]",
+      "type": "custom",
+      "metadata": {
+        "display_priority": 1,
+        "searchable": true,
+        "relevance_score": 0.7,
+        "keywords": ["custom", "specialized"],
+        "target_audience": "specific",
+        "industry": "specialized"
+      }
+    }
+  ],
+  "preferences": {
+    "cv_length": "2_pages",
+    "format_preference": "markdown",
+    "include_photo": false,
+    "include_references": false,
+    "include_interests": true,
+    "include_volunteer": true,
+    "include_publications": true,
+    "target_industries": ["technology", "finance", "healthcare"],
+    "target_roles": ["data_scientist", "machine_learning_engineer", "software_engineer"],
+    "geographic_preference": ["United States", "Canada", "Remote"]
+  }
+}

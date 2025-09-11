@@ -1,0 +1,438 @@
+{
+  "meta": {
+    "version": "1.0",
+    "created": "2024-01-01",
+    "description": "Comprehensive meta cover letter template for generating targeted cover letters",
+    "schema_version": "1.0"
+  },
+  "cover_letter_paragraphs": [
+    {
+      "id": "intro_001",
+      "type": "introduction",
+      "content": "I am writing to express my strong interest in the [Position Title] role at [Company Name]. With my extensive background in [Relevant Field] and proven track record of [Key Achievement], I am excited about the opportunity to contribute to your team's success.",
+      "metadata": {
+        "display_priority": 1,
+        "searchable": true,
+        "relevance_score": 0.9,
+        "keywords": ["introduction", "interest", "position", "company", "background"],
+        "target_audience": "general",
+        "industry": "general",
+        "position_level": "all",
+        "tone": "professional",
+        "length": "short",
+        "customizable_fields": ["Position Title", "Company Name", "Relevant Field", "Key Achievement"],
+        "original_cover_letter": null,
+        "usage_frequency": "high",
+        "privacy_level": "public"
+      }
+    },
+    {
+      "id": "intro_002",
+      "type": "introduction",
+      "content": "I am excited to apply for the [Position Title] position at [Company Name]. Your company's mission to [Company Mission/Value] deeply resonates with me, and I believe my experience in [Relevant Experience] makes me an ideal candidate for this role.",
+      "metadata": {
+        "display_priority": 2,
+        "searchable": true,
+        "relevance_score": 0.85,
+        "keywords": ["introduction", "excited", "mission", "values", "experience", "candidate"],
+        "target_audience": "general",
+        "industry": "general",
+        "position_level": "all",
+        "tone": "enthusiastic",
+        "length": "short",
+        "customizable_fields": ["Position Title", "Company Name", "Company Mission/Value", "Relevant Experience"],
+        "original_cover_letter": null,
+        "usage_frequency": "medium",
+        "privacy_level": "public"
+      }
+    },
+    {
+      "id": "experience_001",
+      "type": "experience",
+      "content": "In my current role as [Current Position] at [Current Company], I have successfully [Key Achievement with Metrics]. This experience has equipped me with [Relevant Skills] that directly align with the requirements for this position. I have consistently demonstrated [Key Quality] while working on [Relevant Project Type].",
+      "metadata": {
+        "display_priority": 1,
+        "searchable": true,
+        "relevance_score": 0.95,
+        "keywords": ["current role", "achievement", "metrics", "skills", "requirements", "experience"],
+        "target_audience": "technical",
+        "industry": "technology",
+        "position_level": "mid_senior",
+        "tone": "confident",
+        "length": "medium",
+        "customizable_fields": ["Current Position", "Current Company", "Key Achievement with Metrics", "Relevant Skills", "Key Quality", "Relevant Project Type"],
+        "original_cover_letter": null,
+        "usage_frequency": "high",
+        "privacy_level": "public"
+      }
+    },
+    {
+      "id": "experience_002",
+      "type": "experience",
+      "content": "Throughout my [X] years of experience in [Industry/Field], I have developed expertise in [Technical Skills] and have a proven track record of [Quantified Achievement]. My experience includes [Relevant Experience Areas], which I believe positions me well to contribute to [Company's Specific Need or Project].",
+      "metadata": {
+        "display_priority": 2,
+        "searchable": true,
+        "relevance_score": 0.9,
+        "keywords": ["years experience", "expertise", "technical skills", "track record", "achievement"],
+        "target_audience": "technical",
+        "industry": "technology",
+        "position_level": "senior",
+        "tone": "professional",
+        "length": "medium",
+        "customizable_fields": ["X", "Industry/Field", "Technical Skills", "Quantified Achievement", "Relevant Experience Areas", "Company's Specific Need or Project"],
+        "original_cover_letter": null,
+        "usage_frequency": "high",
+        "privacy_level": "public"
+      }
+    },
+    {
+      "id": "skills_001",
+      "type": "skills",
+      "content": "My technical expertise spans [Technical Skill Category 1], [Technical Skill Category 2], and [Technical Skill Category 3]. I am particularly strong in [Specific Technology/Technique] and have hands-on experience with [Relevant Tools/Platforms]. This technical foundation enables me to [Specific Capability or Outcome].",
+      "metadata": {
+        "display_priority": 1,
+        "searchable": true,
+        "relevance_score": 0.9,
+        "keywords": ["technical expertise", "skills", "technology", "tools", "platforms", "capability"],
+        "target_audience": "technical",
+        "industry": "technology",
+        "position_level": "all",
+        "tone": "technical",
+        "length": "medium",
+        "customizable_fields": ["Technical Skill Category 1", "Technical Skill Category 2", "Technical Skill Category 3", "Specific Technology/Technique", "Relevant Tools/Platforms", "Specific Capability or Outcome"],
+        "original_cover_letter": null,
+        "usage_frequency": "high",
+        "privacy_level": "public"
+      }
+    },
+    {
+      "id": "achievement_001",
+      "type": "achievement",
+      "content": "One of my most significant achievements was [Specific Achievement with Context]. This project resulted in [Quantified Impact] and demonstrated my ability to [Relevant Skills Demonstrated]. The experience taught me [Key Learning] and reinforced my passion for [Relevant Field/Aspect].",
+      "metadata": {
+        "display_priority": 1,
+        "searchable": true,
+        "relevance_score": 0.95,
+        "keywords": ["achievement", "project", "impact", "skills", "learning", "passion"],
+        "target_audience": "general",
+        "industry": "general",
+        "position_level": "all",
+        "tone": "proud",
+        "length": "medium",
+        "customizable_fields": ["Specific Achievement with Context", "Quantified Impact", "Relevant Skills Demonstrated", "Key Learning", "Relevant Field/Aspect"],
+        "original_cover_letter": null,
+        "usage_frequency": "high",
+        "privacy_level": "public"
+      }
+    },
+    {
+      "id": "achievement_002",
+      "type": "achievement",
+      "content": "In my previous role, I led a team of [Team Size] to [Project Description], which [Project Outcome]. This experience showcased my [Leadership/Management Skills] and ability to [Key Capability]. The project's success was recognized by [Recognition Details].",
+      "metadata": {
+        "display_priority": 2,
+        "searchable": true,
+        "relevance_score": 0.85,
+        "keywords": ["led team", "project", "outcome", "leadership", "management", "recognition"],
+        "target_audience": "general",
+        "industry": "general",
+        "position_level": "mid_senior",
+        "tone": "confident",
+        "length": "medium",
+        "customizable_fields": ["Team Size", "Project Description", "Project Outcome", "Leadership/Management Skills", "Key Capability", "Recognition Details"],
+        "original_cover_letter": null,
+        "usage_frequency": "medium",
+        "privacy_level": "public"
+      }
+    },
+    {
+      "id": "company_research_001",
+      "type": "company_research",
+      "content": "I have been following [Company Name]'s work in [Company's Area of Focus] and am particularly impressed by [Specific Company Achievement/Project]. Your commitment to [Company Value/Mission] aligns perfectly with my own professional values and career aspirations.",
+      "metadata": {
+        "display_priority": 1,
+        "searchable": true,
+        "relevance_score": 0.8,
+        "keywords": ["company", "following", "impressed", "achievement", "commitment", "values", "mission"],
+        "target_audience": "general",
+        "industry": "general",
+        "position_level": "all",
+        "tone": "enthusiastic",
+        "length": "short",
+        "customizable_fields": ["Company Name", "Company's Area of Focus", "Specific Company Achievement/Project", "Company Value/Mission"],
+        "original_cover_letter": null,
+        "usage_frequency": "high",
+        "privacy_level": "public"
+      }
+    },
+    {
+      "id": "company_research_002",
+      "type": "company_research",
+      "content": "What particularly excites me about [Company Name] is your innovative approach to [Specific Innovation/Approach]. Having worked in [Relevant Industry/Context], I understand the challenges you face in [Industry Challenge], and I believe my experience with [Relevant Experience] can help address these challenges.",
+      "metadata": {
+        "display_priority": 2,
+        "searchable": true,
+        "relevance_score": 0.85,
+        "keywords": ["excites", "innovative", "approach", "challenges", "experience", "address"],
+        "target_audience": "technical",
+        "industry": "technology",
+        "position_level": "all",
+        "tone": "analytical",
+        "length": "medium",
+        "customizable_fields": ["Company Name", "Specific Innovation/Approach", "Relevant Industry/Context", "Industry Challenge", "Relevant Experience"],
+        "original_cover_letter": null,
+        "usage_frequency": "medium",
+        "privacy_level": "public"
+      }
+    },
+    {
+      "id": "value_proposition_001",
+      "type": "value_proposition",
+      "content": "I am confident that my combination of [Key Skill 1], [Key Skill 2], and [Key Skill 3] makes me an ideal fit for this role. My ability to [Unique Capability] combined with my passion for [Relevant Passion/Interest] positions me to make an immediate and meaningful contribution to your team.",
+      "metadata": {
+        "display_priority": 1,
+        "searchable": true,
+        "relevance_score": 0.9,
+        "keywords": ["confident", "combination", "skills", "ideal fit", "capability", "passion", "contribution"],
+        "target_audience": "general",
+        "industry": "general",
+        "position_level": "all",
+        "tone": "confident",
+        "length": "medium",
+        "customizable_fields": ["Key Skill 1", "Key Skill 2", "Key Skill 3", "Unique Capability", "Relevant Passion/Interest"],
+        "original_cover_letter": null,
+        "usage_frequency": "high",
+        "privacy_level": "public"
+      }
+    },
+    {
+      "id": "value_proposition_002",
+      "type": "value_proposition",
+      "content": "What sets me apart is my unique blend of [Technical Background] and [Soft Skills/Other Background]. This combination allows me to [Unique Value Proposition] while maintaining [Key Quality]. I am particularly excited about the opportunity to [Specific Opportunity/Challenge] at [Company Name].",
+      "metadata": {
+        "display_priority": 2,
+        "searchable": true,
+        "relevance_score": 0.85,
+        "keywords": ["sets apart", "unique blend", "technical", "soft skills", "value proposition", "excited", "opportunity"],
+        "target_audience": "general",
+        "industry": "general",
+        "position_level": "all",
+        "tone": "distinctive",
+        "length": "medium",
+        "customizable_fields": ["Technical Background", "Soft Skills/Other Background", "Unique Value Proposition", "Key Quality", "Specific Opportunity/Challenge", "Company Name"],
+        "original_cover_letter": null,
+        "usage_frequency": "medium",
+        "privacy_level": "public"
+      }
+    },
+    {
+      "id": "closing_001",
+      "type": "closing",
+      "content": "I would welcome the opportunity to discuss how my experience and skills can contribute to [Company Name]'s continued success. Thank you for considering my application, and I look forward to hearing from you soon.",
+      "metadata": {
+        "display_priority": 1,
+        "searchable": true,
+        "relevance_score": 0.9,
+        "keywords": ["opportunity", "discuss", "experience", "skills", "contribute", "success", "thank you"],
+        "target_audience": "general",
+        "industry": "general",
+        "position_level": "all",
+        "tone": "professional",
+        "length": "short",
+        "customizable_fields": ["Company Name"],
+        "original_cover_letter": null,
+        "usage_frequency": "high",
+        "privacy_level": "public"
+      }
+    },
+    {
+      "id": "closing_002",
+      "type": "closing",
+      "content": "I am excited about the possibility of joining [Company Name] and contributing to your mission of [Company Mission]. I would love to discuss how my background in [Relevant Background] can help drive [Specific Company Goal/Outcome]. Thank you for your time and consideration.",
+      "metadata": {
+        "display_priority": 2,
+        "searchable": true,
+        "relevance_score": 0.85,
+        "keywords": ["excited", "possibility", "joining", "mission", "discuss", "background", "drive", "goal"],
+        "target_audience": "general",
+        "industry": "general",
+        "position_level": "all",
+        "tone": "enthusiastic",
+        "length": "medium",
+        "customizable_fields": ["Company Name", "Company Mission", "Relevant Background", "Specific Company Goal/Outcome"],
+        "original_cover_letter": null,
+        "usage_frequency": "medium",
+        "privacy_level": "public"
+      }
+    },
+    {
+      "id": "technical_001",
+      "type": "technical",
+      "content": "My technical background includes deep expertise in [Technical Domain] with hands-on experience in [Specific Technologies]. I have successfully implemented [Technical Solution Type] that resulted in [Technical Impact]. My approach to [Technical Process] emphasizes [Technical Philosophy/Approach].",
+      "metadata": {
+        "display_priority": 1,
+        "searchable": true,
+        "relevance_score": 0.95,
+        "keywords": ["technical background", "expertise", "technologies", "implemented", "solution", "impact", "process"],
+        "target_audience": "technical",
+        "industry": "technology",
+        "position_level": "all",
+        "tone": "technical",
+        "length": "medium",
+        "customizable_fields": ["Technical Domain", "Specific Technologies", "Technical Solution Type", "Technical Impact", "Technical Process", "Technical Philosophy/Approach"],
+        "original_cover_letter": null,
+        "usage_frequency": "high",
+        "privacy_level": "public"
+      }
+    },
+    {
+      "id": "leadership_001",
+      "type": "leadership",
+      "content": "As a [Leadership Role], I have successfully [Leadership Achievement] while fostering a culture of [Team Culture/Values]. My leadership philosophy centers on [Leadership Philosophy] and I have consistently [Leadership Outcome] through [Leadership Approach].",
+      "metadata": {
+        "display_priority": 1,
+        "searchable": true,
+        "relevance_score": 0.9,
+        "keywords": ["leadership", "role", "achievement", "culture", "values", "philosophy", "outcome", "approach"],
+        "target_audience": "general",
+        "industry": "general",
+        "position_level": "senior",
+        "tone": "authoritative",
+        "length": "medium",
+        "customizable_fields": ["Leadership Role", "Leadership Achievement", "Team Culture/Values", "Leadership Philosophy", "Leadership Outcome", "Leadership Approach"],
+        "original_cover_letter": null,
+        "usage_frequency": "medium",
+        "privacy_level": "public"
+      }
+    },
+    {
+      "id": "passion_001",
+      "type": "passion",
+      "content": "I am passionate about [Relevant Passion/Interest] and have dedicated [Time/Effort] to [Passion-Related Activity]. This passion drives my commitment to [Related Professional Goal] and aligns perfectly with [Company's Related Value/Mission].",
+      "metadata": {
+        "display_priority": 1,
+        "searchable": true,
+        "relevance_score": 0.8,
+        "keywords": ["passionate", "dedicated", "drives", "commitment", "aligns", "mission"],
+        "target_audience": "general",
+        "industry": "general",
+        "position_level": "all",
+        "tone": "passionate",
+        "length": "short",
+        "customizable_fields": ["Relevant Passion/Interest", "Time/Effort", "Passion-Related Activity", "Related Professional Goal", "Company's Related Value/Mission"],
+        "original_cover_letter": null,
+        "usage_frequency": "medium",
+        "privacy_level": "public"
+      }
+    },
+    {
+      "id": "problem_solving_001",
+      "type": "problem_solving",
+      "content": "I thrive on solving complex challenges, particularly in [Problem Domain]. My approach combines [Problem-Solving Method 1] with [Problem-Solving Method 2] to deliver [Solution Outcome]. I have successfully [Specific Problem-Solving Example] which demonstrates my ability to [Problem-Solving Capability].",
+      "metadata": {
+        "display_priority": 1,
+        "searchable": true,
+        "relevance_score": 0.9,
+        "keywords": ["thrive", "solving", "challenges", "approach", "method", "deliver", "outcome", "demonstrates"],
+        "target_audience": "technical",
+        "industry": "technology",
+        "position_level": "all",
+        "tone": "analytical",
+        "length": "medium",
+        "customizable_fields": ["Problem Domain", "Problem-Solving Method 1", "Problem-Solving Method 2", "Solution Outcome", "Specific Problem-Solving Example", "Problem-Solving Capability"],
+        "original_cover_letter": null,
+        "usage_frequency": "high",
+        "privacy_level": "public"
+      }
+    },
+    {
+      "id": "collaboration_001",
+      "type": "collaboration",
+      "content": "I excel in collaborative environments and have a proven track record of working effectively with [Collaboration Partners]. My communication style emphasizes [Communication Approach] and I have successfully [Collaboration Achievement] through [Collaboration Method].",
+      "metadata": {
+        "display_priority": 1,
+        "searchable": true,
+        "relevance_score": 0.85,
+        "keywords": ["collaborative", "environments", "track record", "working", "communication", "achievement", "method"],
+        "target_audience": "general",
+        "industry": "general",
+        "position_level": "all",
+        "tone": "collaborative",
+        "length": "medium",
+        "customizable_fields": ["Collaboration Partners", "Communication Approach", "Collaboration Achievement", "Collaboration Method"],
+        "original_cover_letter": null,
+        "usage_frequency": "medium",
+        "privacy_level": "public"
+      }
+    }
+  ],
+  "cover_letter_templates": [
+    {
+      "id": "template_001",
+      "name": "Standard Professional",
+      "description": "Traditional professional cover letter format",
+      "paragraph_order": ["introduction", "experience", "value_proposition", "closing"],
+      "target_audience": "general",
+      "industry": "general",
+      "position_level": "all",
+      "tone": "professional",
+      "length": "medium",
+      "metadata": {
+        "display_priority": 1,
+        "searchable": true,
+        "relevance_score": 0.9,
+        "keywords": ["standard", "professional", "traditional", "format"],
+        "usage_frequency": "high"
+      }
+    },
+    {
+      "id": "template_002",
+      "name": "Technical Focused",
+      "description": "Cover letter emphasizing technical skills and achievements",
+      "paragraph_order": ["introduction", "technical", "achievement", "value_proposition", "closing"],
+      "target_audience": "technical",
+      "industry": "technology",
+      "position_level": "all",
+      "tone": "technical",
+      "length": "medium",
+      "metadata": {
+        "display_priority": 1,
+        "searchable": true,
+        "relevance_score": 0.95,
+        "keywords": ["technical", "skills", "achievements", "focused"],
+        "usage_frequency": "high"
+      }
+    },
+    {
+      "id": "template_003",
+      "name": "Leadership Focused",
+      "description": "Cover letter emphasizing leadership experience and team management",
+      "paragraph_order": ["introduction", "leadership", "achievement", "value_proposition", "closing"],
+      "target_audience": "general",
+      "industry": "general",
+      "position_level": "senior",
+      "tone": "authoritative",
+      "length": "medium",
+      "metadata": {
+        "display_priority": 1,
+        "searchable": true,
+        "relevance_score": 0.9,
+        "keywords": ["leadership", "management", "team", "focused"],
+        "usage_frequency": "medium"
+      }
+    }
+  ],
+  "preferences": {
+    "default_tone": "professional",
+    "default_length": "medium",
+    "include_company_research": true,
+    "include_technical_details": true,
+    "include_leadership_examples": true,
+    "max_paragraphs": 5,
+    "min_paragraphs": 3,
+    "target_industries": ["technology", "finance", "healthcare", "consulting"],
+    "target_roles": ["data_scientist", "software_engineer", "product_manager", "consultant"],
+    "customizable_approach": true
+  }
+}

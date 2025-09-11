@@ -1,0 +1,396 @@
+{
+  "personal_info": {
+    "full_name": "Alex Chen",
+    "email": "alex.chen@email.com",
+    "phone": "(555) 123-4567",
+    "location": "San Francisco, CA",
+    "linkedin": "linkedin.com/in/alexchen-ds",
+    "github": "github.com/alexchen-ds",
+    "website": "alexchen.dev",
+    "metadata": {
+      "display_priority": 1,
+      "searchable": true,
+      "description": "Primary contact information"
+    }
+  },
+  "professional_summary": {
+    "summary": "Experienced Data Scientist with 6+ years of expertise in machine learning, statistical analysis, and data engineering. Proven track record of developing scalable ML models and leading cross-functional analytics projects. Strong background in Python, SQL, and cloud technologies with a passion for solving complex business problems through data-driven insights. Currently transitioning to product management with focus on AI/ML products.",
+    "metadata": {
+      "display_priority": 1,
+      "searchable": true,
+      "keywords": ["data science", "machine learning", "product management", "AI/ML", "leadership"],
+      "target_audience": "recruiters",
+      "industry": "technology",
+      "privacy_level": "public",
+      "tone": "professional",
+      "length": "medium"
+    }
+  },
+  "education": [
+    {
+      "id": "edu_001",
+      "degree": "Master of Science in Data Science",
+      "institution": "Stanford University",
+      "graduation_year": 2020,
+      "gpa": "3.8/4.0",
+      "relevant_coursework": ["Advanced Statistics", "Machine Learning", "Data Mining", "Experimental Design", "Product Management"],
+      "achievements": ["Dean's List", "Research Assistant"],
+      "metadata": {
+          "display_priority": 1,
+          "searchable": true,
+          "keywords": ["data science", "stanford", "machine learning", "statistics"],
+          "target_audience": "recruiters",
+          "industry": "technology",
+          "privacy_level": "public",
+          "tone": "professional",
+          "length": "medium"
+      }
+    },
+    {
+      "id": "edu_002",
+      "degree": "Bachelor of Science in Computer Science",
+      "institution": "UC Berkeley",
+      "graduation_year": 2018,
+      "gpa": "3.7/4.0",
+      "relevant_coursework": ["Data Structures", "Algorithms", "Database Systems", "Software Engineering"],
+      "achievements": ["Magna Cum Laude", "Phi Beta Kappa"],
+      "metadata": {
+          "display_priority": 2,
+          "searchable": true,
+          "keywords": ["computer science", "berkeley", "algorithms", "software engineering"],
+          "target_audience": "recruiters",
+          "industry": "technology",
+          "privacy_level": "public",
+          "tone": "professional",
+          "length": "medium"
+      }
+    }
+  ],
+  "work_experience": [
+    {
+      "id": "work_001",
+      "company": "DataFlow Inc",
+      "position": "Senior Data Scientist",
+      "start_date": "2021-01",
+      "end_date": "present",
+      "location": "San Francisco, CA",
+      "description": "Lead development of ML models for customer analytics and product optimization. Manage cross-functional teams and drive data-driven product decisions.",
+      "key_achievements": [
+        "Led development of ML models for customer churn prediction, achieving 15% improvement in accuracy",
+        "Designed and implemented A/B testing framework used across 5 product teams, increasing conversion rates by 12%",
+        "Built scalable data pipelines processing 10TB+ daily data using Python, Spark, and AWS",
+        "Mentored 3 junior data scientists and established best practices for model development",
+        "Presented findings to C-level executives and influenced product strategy decisions"
+      ],
+      "technologies": ["Python", "SQL", "Spark", "AWS", "TensorFlow", "scikit-learn"],
+      "metadata": {
+          "display_priority": 1,
+          "searchable": true,
+          "keywords": ["data science", "machine learning", "leadership", "product strategy"],
+          "target_audience": "recruiters",
+          "industry": "technology",
+          "privacy_level": "public",
+          "tone": "professional",
+          "length": "long"
+      }
+    },
+    {
+      "id": "work_002",
+      "company": "AnalyticsPro",
+      "position": "Data Scientist",
+      "start_date": "2018-06",
+      "end_date": "2020-12",
+      "location": "San Francisco, CA",
+      "description": "Developed recommendation systems and statistical models for e-commerce platform. Collaborated with engineering teams to deploy models in production.",
+      "key_achievements": [
+        "Developed recommendation systems for e-commerce platform serving 1M+ users",
+        "Created statistical models for fraud detection, reducing false positives by 25%",
+        "Collaborated with engineering teams to deploy models in production environments",
+        "Conducted exploratory data analysis on large datasets to identify business opportunities"
+      ],
+      "technologies": ["Python", "R", "SQL", "PostgreSQL", "scikit-learn"],
+      "metadata": {
+          "display_priority": 2,
+          "searchable": true,
+          "keywords": ["data science", "recommendation systems", "fraud detection", "e-commerce"],
+          "target_audience": "recruiters",
+          "industry": "technology",
+          "privacy_level": "public",
+          "tone": "professional",
+          "length": "medium"
+      }
+    }
+  ],
+  "projects": [
+    {
+      "id": "proj_001",
+      "name": "A/B Testing Framework",
+      "description": "Designed comprehensive A/B testing platform used by 5 product teams",
+      "technologies": ["Python", "scikit-learn", "AWS", "Docker"],
+      "achievements": ["Increased overall conversion rates by 12% across multiple experiments"],
+      "duration": "6 months",
+      "team_size": 4,
+      "metadata": {
+          "display_priority": 1,
+          "searchable": true,
+          "keywords": ["A/B testing", "product management", "conversion optimization"],
+          "target_audience": "recruiters",
+          "industry": "technology",
+          "privacy_level": "public",
+          "tone": "professional",
+          "length": "medium"
+      }
+    },
+    {
+      "id": "proj_002",
+      "name": "Customer Churn Prediction Model",
+      "description": "Built deep learning model predicting customer churn with 89% accuracy",
+      "technologies": ["Python", "TensorFlow", "PostgreSQL", "Spark"],
+      "achievements": ["Processed 10TB+ of customer data using distributed computing", "Deployed model in production with real-time scoring capabilities"],
+      "duration": "4 months",
+      "team_size": 3,
+      "metadata": {
+          "display_priority": 1,
+          "searchable": true,
+          "keywords": ["machine learning", "deep learning", "churn prediction", "production deployment"],
+          "target_audience": "recruiters",
+          "industry": "technology",
+          "privacy_level": "public",
+          "tone": "professional",
+          "length": "medium"
+      }
+    },
+    {
+      "id": "proj_003",
+      "name": "Real-time Fraud Detection System",
+      "description": "Developed ML pipeline for real-time fraud detection",
+      "technologies": ["Python", "Spark", "Kafka", "Redis"],
+      "achievements": ["Reduced false positive rate by 25% while maintaining 95% fraud detection accuracy", "Processed 100K+ transactions per minute in real-time"],
+      "duration": "3 months",
+      "team_size": 2,
+      "metadata": {
+          "display_priority": 2,
+          "searchable": true,
+          "keywords": ["fraud detection", "real-time", "streaming", "machine learning"],
+          "target_audience": "recruiters",
+          "industry": "fintech",
+          "privacy_level": "public",
+          "tone": "professional",
+          "length": "medium"
+      }
+    }
+  ],
+  "technical_skills": [
+    {
+      "id": "tech_001",
+      "category": "Programming Languages",
+      "skills": [
+        {"name": "Python", "level": "Expert", "years": 6},
+        {"name": "SQL", "level": "Expert", "years": 6},
+        {"name": "R", "level": "Advanced", "years": 4},
+        {"name": "JavaScript", "level": "Intermediate", "years": 2}
+      ],
+      "metadata": {
+          "display_priority": 1,
+          "searchable": true,
+          "keywords": ["programming", "python", "sql", "r", "javascript"],
+          "target_audience": "recruiters",
+          "industry": "technology",
+          "privacy_level": "public",
+          "tone": "professional",
+          "length": "medium"
+      }
+    },
+    {
+      "id": "tech_002",
+      "category": "Machine Learning",
+      "skills": [
+        {"name": "scikit-learn", "level": "Expert", "years": 5},
+        {"name": "TensorFlow", "level": "Advanced", "years": 3},
+        {"name": "PyTorch", "level": "Intermediate", "years": 2},
+        {"name": "XGBoost", "level": "Advanced", "years": 4}
+      ],
+      "metadata": {
+          "display_priority": 1,
+          "searchable": true,
+          "keywords": ["machine learning", "scikit-learn", "tensorflow", "pytorch"],
+          "target_audience": "recruiters",
+          "industry": "technology",
+          "privacy_level": "public",
+          "tone": "professional",
+          "length": "medium"
+      }
+    },
+    {
+      "id": "tech_003",
+      "category": "Cloud Platforms",
+      "skills": [
+        {"name": "AWS", "level": "Advanced", "years": 4},
+        {"name": "GCP", "level": "Intermediate", "years": 2},
+        {"name": "Azure", "level": "Basic", "years": 1}
+      ],
+      "metadata": {
+          "display_priority": 2,
+          "searchable": true,
+          "keywords": ["cloud", "aws", "gcp", "azure"],
+          "target_audience": "recruiters",
+          "industry": "technology",
+          "privacy_level": "public",
+          "tone": "professional",
+          "length": "medium"
+      }
+    }
+  ],
+  "soft_skills": [
+    {
+      "id": "soft_001",
+      "category": "Leadership",
+      "skills": ["Team Leadership", "Mentoring", "Cross-functional Collaboration", "Strategic Thinking"],
+      "metadata": {
+          "display_priority": 1,
+          "searchable": true,
+          "keywords": ["leadership", "mentoring", "collaboration", "strategy"],
+          "target_audience": "recruiters",
+          "industry": "technology",
+          "privacy_level": "public",
+          "tone": "professional",
+          "length": "short"
+      }
+    },
+    {
+      "id": "soft_002",
+      "category": "Communication",
+      "skills": ["Technical Communication", "Executive Presentations", "Data Storytelling", "Written Communication"],
+      "metadata": {
+          "display_priority": 1,
+          "searchable": true,
+          "keywords": ["communication", "presentations", "storytelling", "writing"],
+          "target_audience": "recruiters",
+          "industry": "technology",
+          "privacy_level": "public",
+          "tone": "professional",
+          "length": "short"
+      }
+    }
+  ],
+  "certifications": [
+    {
+      "id": "cert_001",
+      "name": "AWS Certified Solutions Architect - Associate",
+      "issuer": "Amazon Web Services",
+      "date": "2023-06",
+      "expiry": "2026-06",
+      "metadata": {
+          "display_priority": 1,
+          "searchable": true,
+          "keywords": ["aws", "cloud", "solutions architect"],
+          "target_audience": "recruiters",
+          "industry": "technology",
+          "privacy_level": "public",
+          "tone": "professional",
+          "length": "short"
+      }
+    },
+    {
+      "id": "cert_002",
+      "name": "Google Cloud Professional Data Engineer",
+      "issuer": "Google Cloud",
+      "date": "2022-09",
+      "expiry": "2024-09",
+      "metadata": {
+          "display_priority": 2,
+          "searchable": true,
+          "keywords": ["gcp", "data engineering", "google cloud"],
+          "target_audience": "recruiters",
+          "industry": "technology",
+          "privacy_level": "public",
+          "tone": "professional",
+          "length": "short"
+      }
+    }
+  ],
+  "publications": [
+    {
+      "id": "pub_001",
+      "title": "Advanced A/B Testing Methodologies for E-commerce Platforms",
+      "journal": "Data Science Journal",
+      "date": "2023-03",
+      "authors": ["Alex Chen", "Sarah Johnson"],
+      "url": "https://datasciencejournal.com/ab-testing-methodologies",
+      "metadata": {
+          "display_priority": 1,
+          "searchable": true,
+          "keywords": ["A/B testing", "e-commerce", "methodology"],
+          "target_audience": "academic",
+          "industry": "technology",
+          "privacy_level": "public",
+          "tone": "academic",
+          "length": "long"
+      }
+    }
+  ],
+  "languages": [
+    {
+      "id": "lang_001",
+      "language": "English",
+      "proficiency": "Native",
+      "metadata": {
+          "display_priority": 1,
+          "searchable": true,
+          "keywords": ["english", "native"],
+          "target_audience": "recruiters",
+          "industry": "general",
+          "privacy_level": "public",
+          "tone": "professional",
+          "length": "short"
+      }
+    },
+    {
+      "id": "lang_002",
+      "language": "Mandarin",
+      "proficiency": "Conversational",
+      "metadata": {
+          "display_priority": 2,
+          "searchable": true,
+          "keywords": ["mandarin", "chinese", "conversational"],
+          "target_audience": "recruiters",
+          "industry": "general",
+          "privacy_level": "public",
+          "tone": "professional",
+          "length": "short"
+      }
+    }
+  ],
+  "interests": [
+    {
+      "id": "int_001",
+      "category": "Professional",
+      "interests": ["Machine Learning Research", "Product Management", "Open Source Contributions", "Data Science Education"],
+      "metadata": {
+          "display_priority": 1,
+          "searchable": true,
+          "keywords": ["machine learning", "product management", "open source", "education"],
+          "target_audience": "recruiters",
+          "industry": "technology",
+          "privacy_level": "public",
+          "tone": "professional",
+          "length": "short"
+      }
+    },
+    {
+      "id": "int_002",
+      "category": "Personal",
+      "interests": ["Hiking", "Photography", "Cooking", "Travel"],
+      "metadata": {
+          "display_priority": 2,
+          "searchable": true,
+          "keywords": ["hiking", "photography", "cooking", "travel"],
+          "target_audience": "recruiters",
+          "industry": "general",
+          "privacy_level": "public",
+          "tone": "casual",
+          "length": "short"
+      }
+    }
+  ]
+}

@@ -1,0 +1,172 @@
+{
+  "personal_preferences": {
+    "name": "Alex Chen",
+    "email": "alex.chen@email.com",
+    "phone": "(555) 123-4567",
+    "location": "San Francisco, CA",
+    "linkedin": "linkedin.com/in/alexchen-ds",
+    "github": "github.com/alexchen-ds",
+    "website": "alexchen.dev",
+    "metadata": {
+      "display_priority": 1,
+      "searchable": true,
+      "description": "Primary contact information"
+    }
+  },
+  "communication_style": {
+    "tone": "professional",
+    "formality_level": "moderate",
+    "preferred_salutation": "Dear Hiring Manager",
+    "preferred_closing": "Best regards",
+    "use_emojis": false,
+    "metadata": {
+      "display_priority": 1,
+      "searchable": true,
+      "description": "Communication preferences for cover letters and emails"
+    }
+  },
+  "content_preferences": {
+    "always_include_sections": ["technical_skills", "education", "work_experience"],
+    "never_include_sections": ["hobbies", "personal_photos"],
+    "preferred_cv_length": "2_pages",
+    "preferred_cover_letter_length": "1_page",
+    "include_quantified_achievements": true,
+    "include_relevant_certifications": true,
+    "metadata": {
+      "display_priority": 2,
+      "searchable": true,
+      "description": "Content preferences for CV and cover letter generation"
+    }
+  },
+  "job_application_strategy": {
+    "target_roles": ["Senior Data Scientist", "Data Science Manager", "Senior Product Manager", "Product Manager - AI/ML"],
+    "target_industries": ["Technology", "FinTech", "HealthTech", "B2B SaaS"],
+    "target_company_sizes": ["startup", "mid_size", "enterprise"],
+    "preferred_locations": ["San Francisco, CA", "New York, NY", "Seattle, WA", "Remote"],
+    "salary_range_min": 140000,
+    "salary_range_max": 200000,
+    "metadata": {
+      "display_priority": 1,
+      "searchable": true,
+      "description": "Job search strategy and preferences"
+    }
+  },
+  "industry_preferences": {
+    "primary_industry": "Technology",
+    "secondary_industries": ["FinTech", "HealthTech", "B2B SaaS"],
+    "avoid_industries": ["Gaming", "Entertainment"],
+    "metadata": {
+      "display_priority": 2,
+      "searchable": true,
+      "description": "Industry preferences for job applications"
+    }
+  },
+  "role_preferences": {
+    "primary_roles": ["Senior Data Scientist", "Data Science Manager"],
+    "secondary_roles": ["Senior Product Manager", "Product Manager - AI/ML"],
+    "avoid_roles": ["Junior Data Scientist", "Intern"],
+    "metadata": {
+      "display_priority": 1,
+      "searchable": true,
+      "description": "Role preferences for job applications"
+    }
+  },
+  "geographic_preferences": {
+    "preferred_locations": ["San Francisco, CA", "New York, NY", "Seattle, WA"],
+    "acceptable_locations": ["Austin, TX", "Boston, MA", "Remote"],
+    "avoid_locations": ["Los Angeles, CA", "Miami, FL"],
+    "metadata": {
+      "display_priority": 2,
+      "searchable": true,
+      "description": "Geographic preferences for job applications"
+    }
+  },
+  "salary_preferences": {
+    "minimum_salary": 140000,
+    "target_salary": 170000,
+    "maximum_salary": 200000,
+    "salary_negotiation_style": "moderate",
+    "metadata": {
+      "display_priority": 3,
+      "searchable": true,
+      "description": "Salary preferences and negotiation style"
+    }
+  },
+  "content_customization": {
+    "custom_phrases": {
+      "opening_statement": "I am writing to express my strong interest in the [POSITION] role at [COMPANY].",
+      "closing_statement": "I look forward to the opportunity to discuss how I can contribute to [COMPANY]'s success.",
+      "achievement_intro": "One of my most significant achievements was",
+      "skill_intro": "My technical expertise includes"
+    },
+    "avoid_words": ["passionate", "excited", "amazing", "incredible"],
+    "preferred_words": ["experienced", "proven", "demonstrated", "successful"],
+    "metadata": {
+      "display_priority": 2,
+      "searchable": true,
+      "description": "Custom phrases and word preferences for content generation"
+    }
+  },
+  "formatting": {
+    "cv_format": "modern",
+    "cover_letter_format": "standard",
+    "font_preference": "Arial",
+    "font_size": 11,
+    "line_spacing": "single",
+    "margins": "1_inch",
+    "metadata": {
+      "display_priority": 3,
+      "searchable": true,
+      "description": "Formatting preferences for documents"
+    }
+  },
+  "quality_thresholds": {
+    "minimum_match_score": 7,
+    "maximum_weak_areas": 3,
+    "require_strong_areas": 5,
+    "metadata": {
+      "display_priority": 2,
+      "searchable": true,
+      "description": "Quality thresholds for job application analysis"
+    }
+  },
+  "automation": {
+    "auto_generate_cv": true,
+    "auto_generate_cover_letter": true,
+    "auto_analyze_requirements": true,
+    "auto_update_tracker": true,
+    "metadata": {
+      "display_priority": 3,
+      "searchable": true,
+      "description": "Automation preferences for the system"
+    }
+  },
+  "reporting_preferences": {
+    "save_reports": true,
+    "report_format": "markdown",
+    "include_timestamps": true,
+    "report_retention_days": 30,
+    "detailed_analysis": true,
+    "include_metadata": false,
+    "metadata": {
+      "display_priority": 4,
+      "searchable": true,
+      "description": "Reporting preferences for the system"
+    }
+  },
+  "writing_style_preservation": {
+    "preserve_authentic_voice": true,
+    "adaptation_approach": "smooth_integration",
+    "voice_consistency": "maintain_throughout",
+    "sentence_structure_preference": "user_natural",
+    "vocabulary_adaptation": "preserve_user_terms",
+    "tone_adaptation": "gradual_transition",
+    "personal_expression_preservation": true,
+    "technical_terminology_handling": "user_preference",
+    "metadata": {
+      "display_priority": 1,
+      "searchable": true,
+      "description": "Writing style preservation settings"
+    }
+  }
+}

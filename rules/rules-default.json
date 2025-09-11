@@ -1,0 +1,557 @@
+{
+  "meta": {
+    "version": "1.0",
+    "created": "2024-01-15",
+    "description": "Default user preferences with essential fields only",
+    "schema_version": "1.0"
+  },
+  "personal_preferences": {
+    "name": {
+      "value": "[Your Full Name]",
+      "type": "text",
+      "required": true,
+      "metadata": {
+        "display_priority": 1,
+        "searchable": true
+      }
+    },
+    "preferred_name": {
+      "value": "[Preferred Name]",
+      "type": "text",
+      "required": false,
+      "metadata": {
+        "display_priority": 2,
+        "searchable": true
+      }
+    },
+    "professional_title": {
+      "value": "[Your Professional Title]",
+      "type": "text",
+      "required": false,
+      "metadata": {
+        "display_priority": 3,
+        "searchable": true
+      }
+    }
+  },
+  "communication_style": {
+    "tone_preference": {
+      "value": "professional",
+      "type": "enum",
+      "options": ["professional", "enthusiastic", "confident", "analytical", "creative", "authoritative", "collaborative"],
+      "required": true,
+      "metadata": {
+        "display_priority": 1,
+        "searchable": true,
+        "description": "Default tone for all communications"
+      }
+    },
+    "formality_level": {
+      "value": "moderate",
+      "type": "enum",
+      "options": ["casual", "moderate", "formal", "very_formal"],
+      "required": true,
+      "metadata": {
+        "display_priority": 2,
+        "searchable": true,
+        "description": "Level of formality in communications"
+      }
+    },
+    "writing_style": {
+      "value": "concise",
+      "type": "enum",
+      "options": ["concise", "detailed", "narrative", "technical", "conversational"],
+      "required": true,
+      "metadata": {
+        "display_priority": 3,
+        "searchable": true,
+        "description": "Preferred writing style"
+      }
+    },
+    "use_first_person": {
+      "value": true,
+      "type": "boolean",
+      "required": true,
+      "metadata": {
+        "display_priority": 4,
+        "searchable": true,
+        "description": "Whether to use first person (I, my, me) in communications"
+      }
+    },
+    "use_active_voice": {
+      "value": true,
+      "type": "boolean",
+      "required": true,
+      "metadata": {
+        "display_priority": 5,
+        "searchable": true,
+        "description": "Prefer active voice over passive voice"
+      }
+    }
+  },
+  "content_preferences": {
+    "cv_length_preference": {
+      "value": "2_pages",
+      "type": "enum",
+      "options": ["1_page", "2_pages", "3_pages", "flexible"],
+      "required": true,
+      "metadata": {
+        "display_priority": 1,
+        "searchable": true,
+        "description": "Preferred CV length"
+      }
+    },
+    "personal_statement_length": {
+      "value": "medium",
+      "type": "enum",
+      "options": ["short", "medium", "long", "flexible"],
+      "required": true,
+      "metadata": {
+        "display_priority": 2,
+        "searchable": true,
+        "description": "Preferred personal statement length"
+      }
+    },
+    "include_photo": {
+      "value": false,
+      "type": "boolean",
+      "required": true,
+      "metadata": {
+        "display_priority": 3,
+        "searchable": true,
+        "description": "Whether to include photo in CV"
+      }
+    },
+    "include_references": {
+      "value": false,
+      "type": "boolean",
+      "required": true,
+      "metadata": {
+        "display_priority": 4,
+        "searchable": true,
+        "description": "Whether to include references in CV"
+      }
+    },
+    "include_interests": {
+      "value": true,
+      "type": "boolean",
+      "required": true,
+      "metadata": {
+        "display_priority": 5,
+        "searchable": true,
+        "description": "Whether to include personal interests"
+      }
+    },
+    "include_volunteer": {
+      "value": false,
+      "type": "boolean",
+      "required": true,
+      "metadata": {
+        "display_priority": 6,
+        "searchable": true,
+        "description": "Whether to include volunteer experience"
+      }
+    },
+    "include_publications": {
+      "value": true,
+      "type": "boolean",
+      "required": true,
+      "metadata": {
+        "display_priority": 7,
+        "searchable": true,
+        "description": "Whether to include publications"
+      }
+    }
+  },
+  "job_application_strategy": {
+    "default_structure_approach": {
+      "value": "default_skeleton",
+      "type": "enum",
+      "options": ["default_skeleton", "story_first", "achievement_first", "company_first", "auto_select"],
+      "required": true,
+      "metadata": {
+        "display_priority": 1,
+        "searchable": true,
+        "description": "Default structure approach for personal statements"
+      }
+    },
+    "emphasize_quantified_results": {
+      "value": true,
+      "type": "boolean",
+      "required": true,
+      "metadata": {
+        "display_priority": 2,
+        "searchable": true,
+        "description": "Always emphasize quantified results and metrics"
+      }
+    },
+    "use_job_specific_keywords": {
+      "value": true,
+      "type": "boolean",
+      "required": true,
+      "metadata": {
+        "display_priority": 3,
+        "searchable": true,
+        "description": "Incorporate keywords from job description"
+      }
+    },
+    "show_cultural_fit": {
+      "value": true,
+      "type": "boolean",
+      "required": true,
+      "metadata": {
+        "display_priority": 4,
+        "searchable": true,
+        "description": "Demonstrate alignment with company culture and values"
+      }
+    },
+    "address_skill_gaps": {
+      "value": "minimize",
+      "type": "enum",
+      "options": ["minimize", "acknowledge", "address_directly", "ignore"],
+      "required": true,
+      "metadata": {
+        "display_priority": 5,
+        "searchable": true,
+        "description": "How to handle missing skills or qualifications"
+      }
+    }
+  },
+  "industry_preferences": {
+    "target_industries": [
+      {
+        "industry": "technology",
+        "preference_score": 0.8,
+        "metadata": {
+          "display_priority": 1,
+          "searchable": true,
+          "description": "Primary target industry"
+        }
+      }
+    ],
+    "avoid_industries": []
+  },
+  "role_preferences": {
+    "target_roles": [
+      {
+        "role": "software_engineer",
+        "preference_score": 0.8,
+        "metadata": {
+          "display_priority": 1,
+          "searchable": true,
+          "description": "Primary target role"
+        }
+      }
+    ],
+    "avoid_roles": []
+  },
+  "geographic_preferences": {
+    "preferred_locations": [
+      {
+        "location": "Remote",
+        "preference_score": 0.8,
+        "metadata": {
+          "display_priority": 1,
+          "searchable": true,
+          "description": "Primary location preference"
+        }
+      }
+    ],
+    "avoid_locations": []
+  },
+  "salary_preferences": {
+    "minimum_salary": {
+      "value": 60000,
+      "currency": "USD",
+      "type": "number",
+      "required": true,
+      "metadata": {
+        "display_priority": 1,
+        "searchable": true,
+        "description": "Minimum acceptable salary"
+      }
+    },
+    "target_salary": {
+      "value": 100000,
+      "currency": "USD",
+      "type": "number",
+      "required": true,
+      "metadata": {
+        "display_priority": 2,
+        "searchable": true,
+        "description": "Target salary range"
+      }
+    },
+    "salary_flexibility": {
+      "value": "moderate",
+      "type": "enum",
+      "options": ["rigid", "moderate", "flexible", "negotiable"],
+      "required": true,
+      "metadata": {
+        "display_priority": 3,
+        "searchable": true,
+        "description": "Flexibility in salary negotiations"
+      }
+    }
+  },
+  "content_customization": {
+    "always_include_sections": [],
+    "never_include_sections": [],
+    "custom_phrases": [],
+    "avoid_words": []
+  },
+  "writing_style_preservation": {
+    "preserve_authentic_voice": {
+      "value": true,
+      "type": "boolean",
+      "required": true,
+      "metadata": {
+        "display_priority": 1,
+        "searchable": true,
+        "description": "Maintain user's authentic writing voice when adapting content from meta CV/cover letter"
+      }
+    },
+    "adaptation_approach": {
+      "value": "smooth_integration",
+      "type": "enum",
+      "options": ["smooth_integration", "minimal_changes", "preserve_structure", "rewrite_completely"],
+      "required": true,
+      "metadata": {
+        "display_priority": 2,
+        "searchable": true,
+        "description": "How to adapt content from meta templates to final documents"
+      }
+    },
+    "voice_consistency": {
+      "value": "maintain_throughout",
+      "type": "enum",
+      "options": ["maintain_throughout", "adapt_to_context", "preserve_key_phrases", "rewrite_for_consistency"],
+      "required": true,
+      "metadata": {
+        "display_priority": 3,
+        "searchable": true,
+        "description": "Approach to maintaining consistent voice across all content"
+      }
+    },
+    "sentence_structure_preference": {
+      "value": "user_natural",
+      "type": "enum",
+      "options": ["user_natural", "template_standard", "job_optimized", "hybrid_approach"],
+      "required": true,
+      "metadata": {
+        "display_priority": 4,
+        "searchable": true,
+        "description": "Whether to preserve user's natural sentence structure or adapt to templates"
+      }
+    },
+    "vocabulary_adaptation": {
+      "value": "preserve_user_terms",
+      "type": "enum",
+      "options": ["preserve_user_terms", "use_template_vocabulary", "job_specific_terms", "balanced_approach"],
+      "required": true,
+      "metadata": {
+        "display_priority": 5,
+        "searchable": true,
+        "description": "How to handle vocabulary when adapting from meta templates"
+      }
+    },
+    "tone_adaptation": {
+      "value": "gradual_transition",
+      "type": "enum",
+      "options": ["gradual_transition", "immediate_adaptation", "preserve_original", "context_appropriate"],
+      "required": true,
+      "metadata": {
+        "display_priority": 6,
+        "searchable": true,
+        "description": "How to adapt tone when moving from meta content to final documents"
+      }
+    },
+    "personal_expression_preservation": {
+      "value": true,
+      "type": "boolean",
+      "required": true,
+      "metadata": {
+        "display_priority": 7,
+        "searchable": true,
+        "description": "Preserve user's personal expressions and unique phrasing"
+      }
+    },
+    "technical_terminology_handling": {
+      "value": "user_preference",
+      "type": "enum",
+      "options": ["user_preference", "industry_standard", "job_requirements", "balanced_approach"],
+      "required": true,
+      "metadata": {
+        "display_priority": 8,
+        "searchable": true,
+        "description": "How to handle technical terminology in final documents"
+      }
+    }
+  },
+  "formatting_preferences": {
+    "date_format": {
+      "value": "MM/YYYY",
+      "type": "enum",
+      "options": ["MM/YYYY", "Month YYYY", "YYYY-MM", "MM/DD/YYYY"],
+      "required": true,
+      "metadata": {
+        "display_priority": 1,
+        "searchable": true,
+        "description": "Preferred date format"
+      }
+    },
+    "bullet_style": {
+      "value": "dash",
+      "type": "enum",
+      "options": ["dash", "bullet", "number", "arrow"],
+      "required": true,
+      "metadata": {
+        "display_priority": 2,
+        "searchable": true,
+        "description": "Preferred bullet point style"
+      }
+    },
+    "section_headers": {
+      "value": "title_case",
+      "type": "enum",
+      "options": ["title_case", "UPPER_CASE", "lower_case", "Sentence case"],
+      "required": true,
+      "metadata": {
+        "display_priority": 3,
+        "searchable": true,
+        "description": "Preferred section header formatting"
+      }
+    }
+  },
+  "quality_thresholds": {
+    "minimum_relevance_score": {
+      "value": 0.6,
+      "type": "number",
+      "min": 0.0,
+      "max": 1.0,
+      "required": true,
+      "metadata": {
+        "display_priority": 1,
+        "searchable": true,
+        "description": "Minimum relevance score for including content"
+      }
+    },
+    "minimum_requirement_score": {
+      "value": 0.5,
+      "type": "number",
+      "min": 0.0,
+      "max": 1.0,
+      "required": true,
+      "metadata": {
+        "display_priority": 2,
+        "searchable": true,
+        "description": "Minimum score for addressing job requirements"
+      }
+    }
+  },
+  "automation_preferences": {
+    "auto_generate_cv": {
+      "value": true,
+      "type": "boolean",
+      "required": true,
+      "metadata": {
+        "display_priority": 1,
+        "searchable": true,
+        "description": "Automatically generate CV when processing new jobs"
+      }
+    },
+    "auto_generate_personal_statement": {
+      "value": true,
+      "type": "boolean",
+      "required": true,
+      "metadata": {
+        "display_priority": 2,
+        "searchable": true,
+        "description": "Automatically generate personal statement when processing new jobs"
+      }
+    },
+    "auto_update_tracker": {
+      "value": true,
+      "type": "boolean",
+      "required": true,
+      "metadata": {
+        "display_priority": 3,
+        "searchable": true,
+        "description": "Automatically update tracker CSV when processing new jobs"
+      }
+    },
+    "require_approval": {
+      "value": false,
+      "type": "boolean",
+      "required": true,
+      "metadata": {
+        "display_priority": 4,
+        "searchable": true,
+        "description": "Require user approval before generating content"
+      }
+    }
+  },
+  "reporting_preferences": {
+    "save_reports": {
+      "value": true,
+      "type": "boolean",
+      "required": true,
+      "metadata": {
+        "display_priority": 1,
+        "searchable": true,
+        "description": "Save detailed reports to reports/ folder"
+      }
+    },
+    "report_format": {
+      "value": "markdown",
+      "type": "enum",
+      "options": ["markdown", "json", "both"],
+      "required": true,
+      "metadata": {
+        "display_priority": 2,
+        "searchable": true,
+        "description": "Format for saved reports"
+      }
+    },
+    "include_timestamps": {
+      "value": true,
+      "type": "boolean",
+      "required": true,
+      "metadata": {
+        "display_priority": 3,
+        "searchable": true,
+        "description": "Include timestamps in report filenames"
+      }
+    },
+    "report_retention_days": {
+      "value": 30,
+      "type": "integer",
+      "required": true,
+      "metadata": {
+        "display_priority": 4,
+        "searchable": true,
+        "description": "Number of days to keep reports before cleanup"
+      }
+    },
+    "detailed_analysis": {
+      "value": true,
+      "type": "boolean",
+      "required": true,
+      "metadata": {
+        "display_priority": 5,
+        "searchable": true,
+        "description": "Include detailed analysis in reports"
+      }
+    },
+    "include_metadata": {
+      "value": false,
+      "type": "boolean",
+      "required": true,
+      "metadata": {
+        "display_priority": 6,
+        "searchable": true,
+        "description": "Include metadata and technical details in reports"
+      }
+    }
+  }
+}

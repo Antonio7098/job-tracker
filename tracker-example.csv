@@ -1,0 +1,11 @@
+ID,Job Position,Company,Max. Salary,Location,Status,Date Saved,Deadline,Date Applied,Follow up,Excitement
+JOB_20240115_001,Senior Data Scientist,TechCorp Analytics,180000,San Francisco CA (Hybrid),Applied,2024-01-15,2024-02-15,2024-01-20,Interview scheduled for 2024-01-25,9
+JOB_20240120_002,Senior Product Manager,InnovateTech Solutions,200000,New York NY (Remote),Interviewed,2024-01-20,2024-02-20,2024-01-22,Final interview scheduled for 2024-01-30,10
+JOB_20240110_003,Data Science Manager,DataVault Inc,160000,Seattle WA (Hybrid),Saved,2024-01-10,2024-02-10,,Need to apply by 2024-01-25,7
+JOB_20240105_004,Product Manager - AI/ML,CloudTech Corp,190000,San Francisco CA (Remote),Applied,2024-01-05,2024-01-30,2024-01-08,Waiting for response,8
+JOB_20240101_005,Senior Data Scientist,FinTech Solutions,175000,Austin TX (Hybrid),Rejected,2024-01-01,2024-01-20,2024-01-03,Not selected after technical interview,6
+JOB_20231228_006,Product Manager,HealthTech Innovations,165000,San Francisco CA (Hybrid),Interviewed,2023-12-28,2024-01-15,2023-12-30,Waiting for final decision,8
+JOB_20231220_007,Data Science Lead,StartupXYZ,150000,San Francisco CA (On-site),Saved,2023-12-20,2024-01-10,,Need to decide if interested,5
+JOB_20231215_008,Senior Product Manager,Enterprise Solutions,185000,New York NY (Hybrid),Applied,2023-12-15,2024-01-05,2023-12-18,Phone screen completed,7
+JOB_20231210_009,Data Scientist,Research Labs,140000,San Francisco CA (Remote),Saved,2023-12-10,2024-01-25,,Considering other options,4
+JOB_20231205_010,Product Manager - Analytics,BigTech Inc,220000,San Francisco CA (Hybrid),Applied,2023-12-05,2024-01-15,2023-12-08,Technical interview scheduled,9

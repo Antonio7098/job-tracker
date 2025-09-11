@@ -1,176 +1,114 @@
-# Job Application Tracking System
+# Job Tracker System
 
-A comprehensive system for tracking job applications, analyzing requirements, and managing your job search process.
+Copyright (c) 2025 Stable Flow. Licensed under MIT License.
 
-## 📁 File Structure
+A comprehensive solution for managing job applications, generating targeted CVs and personal statements, and tracking application progress using intelligent content selection and writing style preservation.
+
+## 🚀 Quick Start
+
+1. **Set up your rules**: Copy `rules/rules-default.json` to `rules/user-rules.json` and customize
+2. **Create your meta content**: Populate `meta/meta-cv-example.json` and `meta/meta-cover-letter-example.json` with your information
+3. **Process a job**: Use the instructions to analyze a job description and generate applications
+4. **Track progress**: Monitor applications using `tracker.csv`
+
+## 📁 Project Structure
 
 ```
-applications/
-├── README.md                           # This file
-├── tracker.csv                         # Main job application tracker
-├── CV/                                 # CV files
-├── job-docs/                          # Job-specific documents
-└── templates/                         # Template files
-    ├── cv-template.md                 # CV template for job applications
-    ├── personal-statement-template.md # Personal statement template
-    ├── job-info-template.md           # Detailed job information template
-    ├── requirements-template.csv      # Job requirements analysis template
-    └── tracker-template.csv           # Sample tracker entries
+job-tracker/
+├── docs/                          # Complete documentation
+├── instructions/                  # Agent processing instructions
+├── jobs/                          # Individual job application folders
+├── meta/                          # Content libraries (CV & cover letters)
+├── reports/                       # Detailed operation reports
+├── rules/                         # User preferences and customization
+├── templates/                     # Base templates and schemas
+└── tracker.csv                    # Main job tracking file
 ```
 
-## 📊 Main Tracker (`tracker.csv`)
+## 🎯 Key Features
 
-The central file for tracking all your job applications with the following columns:
+- **Intelligent Content Selection**: AI-powered matching of content to job requirements
+- **Writing Style Preservation**: Maintains your authentic voice across all documents
+- **Flexible Structure Options**: Multiple CV and personal statement approaches
+- **Comprehensive Tracking**: Complete job application lifecycle management
+- **Meta Content Management**: Easy updates to your content libraries
+- **Detailed Reporting**: Comprehensive reports for all operations
+- **Customizable Rules**: Extensive personalization options
 
-| Column | Description |
-|--------|-------------|
-| **ID** | Unique identifier for each application |
-| **Job Position** | Job title/role |
-| **Company** | Company name |
-| **Max. Salary** | Maximum salary offered or target salary |
-| **Location** | Job location (city, state, remote, etc.) |
-| **Status** | Current application status (Saved, Applied, Interview, Rejected, etc.) |
-| **Date Saved** | When you saved this job posting |
-| **Deadline** | Application deadline |
-| **Date Applied** | When you actually submitted your application |
-| **Follow up** | Notes about follow-up actions needed |
-| **Excitement** | Your level of interest (1-10 scale) |
+## 📚 Documentation
 
-## 📝 Templates
+- **[Complete User Guide](docs/user-guide.md)** - Step-by-step instructions
+- **[System Overview](docs/system-overview.md)** - Architecture and design
+- **[API Reference](docs/api-reference.md)** - Technical specifications
+- **[Troubleshooting](docs/troubleshooting.md)** - Common issues and solutions
 
-### 1. CV Template (`templates/cv-template.md`)
+## 🛠️ Setup
 
-A basic CV template with empty sections ready to be populated:
+### Prerequisites
+- VS Code or VS Code Fork (recommended)
+- CSV viewer extension ("Edit csv" or "Excel Viewer")
+- JSON editing capabilities
 
-**Sections included:**
-- Personal Information
-- Profile
-- Professional Development
-- Education
-- Technical Projects
-- Technical Skills
-- Experience
-- Languages
-- Activities and Interests
+### Initial Configuration
+1. Copy `rules/rules-default.json` to `rules/user-rules.json`
+2. Customize your personal information and preferences
+3. Populate meta content libraries with your information
+4. Test with a sample job application
 
-**Usage**: Copy this template for each job application and fill in your information. Customize the content to highlight the most relevant skills and experiences for each specific role.
+## 📖 Usage
 
-### 2. Personal Statement Template (`templates/personal-statement-template.md`)
+### Processing a New Job
+1. Provide job description to the agent
+2. Reference `@instructions/new-job.md`
+3. System creates job folder with analysis
+4. Review requirements analysis and recommendations
 
-A basic personal statement template with empty sections ready to be populated:
+### Generating Applications
+1. Use `@instructions/create-cv.md` for CV generation
+2. Use `@instructions/create-personal-statement.md` for personal statements
+3. Content automatically customized for specific job
 
-**Sections included:**
-- Opening Paragraph
-- Technical Expertise & Experience
-- Problem-Solving & Impact
-- Motivation & Career Goals
-- Soft Skills & Cultural Fit
-- Closing Paragraph
+### Updating Meta Content
+1. Use `@instructions/update-meta.md` to update your content libraries
+2. Provide new data (CV, personal statement, or raw text)
+3. System updates your meta CV and cover letter databases
+4. Review generated report for accuracy
 
-**Usage**: Copy this template for each job application and fill in your information. Customize the content to highlight the most relevant skills and experiences for each specific role.
+### Reviewing Reports
+1. Check `reports/` folder for detailed operation reports
+2. Review quality metrics and recommendations
+3. Use insights to improve your meta content
+4. Track system performance over time
 
-### 3. Job Information Template (`templates/job-info-template.md`)
+## 🔧 Customization
 
-A comprehensive markdown template for detailed job analysis including:
-- Basic job information
-- Job description
-- Application tracking details
-- Strategic notes for application planning
-- Contact information
+### User Rules
+- **Communication Style**: Tone, formality, writing style
+- **Content Preferences**: Length, sections, formatting
+- **Job Strategy**: Structure approaches, quality thresholds
+- **Writing Style Preservation**: Maintain authentic voice
 
-**Usage**: Copy this template for each job and fill in the specific details.
+### Meta Content
+- **CV Library**: Comprehensive professional information
+- **Cover Letter Library**: Paragraph-level content with metadata
+- **Rich Metadata**: Searchable, filterable content selection
 
-### 4. Requirements Analysis Template (`templates/requirements-template.csv`)
+## 📊 Tracking
 
-A systematic way to analyze how well you meet job requirements:
+The system tracks:
+- Job applications and status
+- Requirements analysis and scoring
+- Follow-up actions and deadlines
+- Success patterns and optimization
 
-| Column | Description |
-|--------|-------------|
-| **Criteria** | Specific job requirement |
-| **Required/Desired** | Whether it's must-have or nice-to-have |
-| **CV Evidence** | How your CV demonstrates this requirement |
-| **Personal Statement Evidence** | How your personal statement addresses this |
-| **Strength Level** | Qualitative assessment (Strong, Moderate, Weak, Not Met) |
-| **Score (1-10)** | Numerical rating of how well you satisfy the requirement |
-| **How to Improve** | Specific strategies to better meet the requirement |
-| **Notes** | Additional thoughts or context |
-| **Action Items** | Concrete steps to address gaps |
+## 🤝 Contributing
 
-**Usage**: Copy this template for each job and analyze each requirement systematically.
+This is a personal job application management system. Feel free to adapt and customize for your needs.
 
-### 5. Tracker Template (`templates/tracker-template.csv`)
+## 📄 License
 
-Sample entries showing the expected format for the main tracker.
-
-## 🚀 How to Use This System
-
-### 1. Initial Setup
-1. Copy `templates/tracker-template.csv` to see the expected format
-2. Start adding your job applications to `tracker.csv`
-
-### 2. For Each Job Application
-
-#### Step 1: Add to Main Tracker
-- Add a new row to `tracker.csv` with basic information
-- Assign a unique ID
-- Set initial status (usually "Saved")
-
-#### Step 2: Create Detailed Analysis
-- Copy `templates/job-info-template.md` to `job-docs/[company]-[position].md`
-- Fill in all job details and strategic notes
-
-#### Step 3: Customize Your CV
-- Copy `templates/cv-template.md` to `job-docs/[company]-[position]-cv.md`
-- Fill in your information in each section
-- Tailor the content to highlight skills most relevant to the specific role
-
-#### Step 4: Write Personal Statement
-- Copy `templates/personal-statement-template.md` to `job-docs/[company]-[position]-personal-statement.md`
-- Fill in your information in each section
-- Customize the content to highlight the most relevant skills and experiences
-
-#### Step 5: Analyze Requirements
-- Copy `templates/requirements-template.csv` to `job-docs/[company]-[position]-requirements.csv`
-- Go through each job requirement systematically
-- Score your fit and identify improvement areas
-
-#### Step 6: Apply and Track
-- Update the tracker with application date and status changes
-- Use the follow-up column to track next steps
-- Update requirements analysis as you improve your application
-
-### 3. Regular Maintenance
-- Review and update statuses weekly
-- Follow up on pending applications
-- Use the excitement score to prioritize applications
-- Update requirements analysis based on feedback
-
-## 💡 Tips for Success
-
-1. **Be Consistent**: Use the same format and scoring system across all applications
-2. **Track Everything**: Even small details can be important later
-3. **Regular Reviews**: Set aside time weekly to update your tracker
-4. **Learn from Rejections**: Use the requirements analysis to identify patterns
-5. **Prioritize**: Use the excitement score to focus your efforts on the most interesting roles
-
-## 📈 Tracking Your Progress
-
-- **Status Distribution**: Count applications by status to see your pipeline
-- **Success Rate**: Track applications that lead to interviews
-- **Common Gaps**: Use requirements analysis to identify recurring skill gaps
-- **Time to Apply**: Track how long between saving and applying
-
-## 🔄 Workflow Example
-
-1. Find interesting job → Add to tracker with status "Saved"
-2. Create detailed job analysis using job-info-template
-3. Customize CV using cv-template for the specific role
-4. Analyze requirements using requirements-template
-5. Tailor personal statement based on analysis
-6. Apply → Update tracker with "Applied" status and date
-7. Follow up as planned → Update status to "Interview" or "Rejected"
-8. Learn from feedback → Update requirements analysis for future applications
+MIT License - see [LICENSE](LICENSE) file for details.
 
 ---
 
-*This system helps you stay organized, make data-driven decisions, and continuously improve your job applications.*
+**Need Help?** Check the [Complete User Guide](docs/user-guide.md) or [Troubleshooting Guide](docs/troubleshooting.md)
